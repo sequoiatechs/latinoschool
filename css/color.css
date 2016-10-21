@@ -3,6 +3,16 @@
 		   Font Color
 	  ============================================================
 */
+
+.top_ui_element ul li i{
+	color: #ffffff;
+}
+
+.top_ui_element ul li:hover a{
+	color: #ffffff;
+}
+
+
 .top_location_wrap p i,
 .top_ui_element ul li i,
 .top_ui_element ul li:hover a,
@@ -35,7 +45,7 @@
 .ct_popular_course > ul > li:hover .ct_proj_des > a,
 .ct_hreg_wrap ul.countdown li span
 {
-	color:#90a94c;	
+	color:#840000;
 }
 
 
@@ -75,7 +85,7 @@
 .ct_hreg_wrap > a:hover,
 .ct_banner_caption > a.active
 {
-	background-color:#90a94c;	
+	background-color:#840000;
 }
 
 
@@ -100,7 +110,7 @@
 .ct_pagination ul li a:hover,
 .ct_hreg_wrap > a:hover
 {
-	border-color:#90a94c;	
+	border-color:#840000;
 }
 
 
@@ -169,7 +179,7 @@
 	-webkit-transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-o-transition:all 0.3s ease-in-out;
-	-moz-transition:all 0.3s ease-in-out;	
+	-moz-transition:all 0.3s ease-in-out;
 }
 
 
@@ -186,14 +196,14 @@
 	  ============================================================
 */
 ::selection {
-    background: #90a94c;
+    background: #840000;
     color:#ffffff;
 }
 ::-webkit-selection {
-    background: #90a94c;
+    background: #840000;
     color: #ffffff;
 }
 ::-moz-selection {
-    background: #90a94c;
+    background: #840000;
     color: #ffffff;
 }
