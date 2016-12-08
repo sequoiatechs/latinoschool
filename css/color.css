@@ -16,7 +16,6 @@
 .top_location_wrap p i,
 .top_ui_element ul li i,
 .top_ui_element ul li:hover a,
-.main_navigation ul > li:hover > a,
 .ct_banner_caption h4 > span,
 .get_icon_des a,
 .course_author a:hover,
@@ -46,6 +45,10 @@
 .ct_hreg_wrap ul.countdown li span
 {
 	color:#840000;
+}
+
+.main_navigation ul > li:hover > a{
+	color: #FFFFFF;
 }
 
 

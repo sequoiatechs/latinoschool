@@ -8,6 +8,15 @@
 
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic-ext,latin-ext,cyrillic);
 
+@font-face {font-family: "Amorinda";
+    src: url("//db.onlinewebfonts.com/t/070b5ec8058c0bd42d9c5cde8fb741e2.eot");
+    src: url("//db.onlinewebfonts.com/t/070b5ec8058c0bd42d9c5cde8fb741e2.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/070b5ec8058c0bd42d9c5cde8fb741e2.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/070b5ec8058c0bd42d9c5cde8fb741e2.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/070b5ec8058c0bd42d9c5cde8fb741e2.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/070b5ec8058c0bd42d9c5cde8fb741e2.svg#Amorinda") format("svg");
+}
+
 /*
 	font-family: 'Montserrat', sans-serif;
 	font-family: 'Open Sans', sans-serif;
@@ -19,7 +28,7 @@
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 	-o-box-sizing:border-box;
-	-ms-box-sizing:border-box;	
+	-ms-box-sizing:border-box;
 }
 body {
     color: #666666;
@@ -214,7 +223,7 @@ table > thead > tr > th {
     border-bottom: 2px solid #d2d2d2;
     vertical-align: bottom;
 }
-table > caption + thead > tr:first-child > th, table > colgroup + thead > tr:first-child > th, table > thead:first-child > tr:first-child > th, table > caption + thead > tr:first-child > td, table > colgroup + thead > tr:first-child > td, table > thead:first-child > tr:first-child > td 
+table > caption + thead > tr:first-child > th, table > colgroup + thead > tr:first-child > th, table > thead:first-child > tr:first-child > th, table > caption + thead > tr:first-child > td, table > colgroup + thead > tr:first-child > td, table > thead:first-child > tr:first-child > td
 {
 	border-bottom: 0;
 }

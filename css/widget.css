@@ -172,6 +172,7 @@
 	height: 2px;
 	padding: 0px;
 	margin: 15px 0px 10px;
+	background-color: #222222;
 }
 .foo_col_4 ul li:nth-child(4n) {
 	text-transform: uppercase;
@@ -483,15 +484,15 @@
 }
 .ct_proj_des > ul{
 	float:left;
-	width:auto;	
+	width:auto;
 }
 .ct_proj_des ul li{
 	display:inline-block;
-	width:100%;	
+	width:100%;
 }
 .ct_proj_des ul li a{
 	display:inline-block;
-	color:#efb467;	
+	color:#efb467;
 }
 /*Testimonial Css*/
 .ct_aside_testimonial,
@@ -500,7 +501,7 @@
 	position:relative;
 	z-index:10;
 	float:left;
-	width:100%;	
+	width:100%;
 }
 .ct_aside_testimonial ul{
 	float:left;
@@ -521,37 +522,37 @@
 .ct_aside_testimonial ul li h6 span{
 	color:#444444;
 	display:inline-block;
-	font-size:12px;	
+	font-size:12px;
 }
 .ct_aside_testimonial #bx-pager{
 	float:left;
 	width:100%;
 	position:relative;
-	text-align:center;	
+	text-align:center;
 }
 .ct_aside_testimonial #bx-pager a{
 	display:inline-block;
 	border-radius:100%;
-	margin:0px 5px;	
+	margin:0px 5px;
 }
 /*Bx-Slider*/
 .ct_aside_testimonial .bx-wrapper{
-	margin:0px 0px 20px;	
+	margin:0px 0px 20px;
 }
 .ct_aside_testimonial #bx-pager a.active{
 	transform:scale(1.4);
 	-webkit-transform:scale(1.4);
-	-moz-transform:scale(1.4);	
+	-moz-transform:scale(1.4);
 }
 /*Tags CSS*/
 .ct_aside_tag ul{
 	float:left;
-	width:100%;	
+	width:100%;
 }
 .ct_aside_tag ul li{
 	position:relative;
 	display:inline-block;
-	margin:0px 3px 7px 0px;	
+	margin:0px 3px 7px 0px;
 }
 .ct_aside_tag ul li a{
 	border: 1px solid #e8e8e8;
@@ -562,8 +563,8 @@
     text-transform: capitalize;
 }
 .ct_aside_tag ul li:nth-child(3n + 3) a{
-	margin-right:0px;	
+	margin-right:0px;
 }
 .ct_aside_tag ul li:hover a{
-	color:#fff;	
+	color:#fff;
 }
