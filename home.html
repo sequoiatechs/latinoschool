@@ -113,17 +113,22 @@
           <div class="top_strip">
             <div class="container">
                   <div class="top_location_wrap">
-                    Located at
+                    <!-- Campuses in -->
                     <ul style="display: inline-block;">
-                      <li style="display: inline-block;"><p><img  class="flag flag-pe"/> Perú  </p></li>
-                      <li style="display: inline-block;"><p><img  class="flag flag-ec"/> Ecuador  </p></li>
-                      <li style="display: inline-block;"><p><img  class="flag flag-bo"/> Bolivia</p></li>
+                      <!-- <li style="display: inline-block;"><p>Ecuador <img src="images/vector-ec.png" alt="" style="width: 25px; margin-right: 15px;"> </p></li>
+                      <li style="display: inline-block;"><p> Perú <img src="images/eagle.png" alt="" style="width: 25px; margin-right: 15px;"> </p></li>
+                      and
+                      <li style="display: inline-block;"><p> Bolivia <img src="images/llama.png" alt="" style="width: 25px"></p></li> -->
+                      <li style="font-family: 'Amorinda'; color: #840000; font-size: 28px; display: inline-block; margin-right: 100px; font-weight: bold;"><img src="images/turtle.png" alt="" style="width: 30px; margin: -5px 10px 0px 0px;">Ecuador</li>
+                      <li style="font-family: 'Amorinda'; color: #840000; font-size: 28px; display: inline-block; margin-right: 100px; font-weight: bold;"> <img src="images/llama.png" alt="" style="width: 30px; margin: -5px 10px 0px 0px;">Peru</li>
+                      <li style="font-family: 'Amorinda'; color: #840000; font-size: 28px; display: inline-block; font-weight: bold;"><img src="images/parrot.png" alt="" style="width: 30px; margin: -5px 10px 0px 0px;">Bolivia</li>
+
                     </ul>
                   </div>
                   <div class="top_ui_element">
                       <ul>
                           <li><a href="#"><img src="images/paypal.gif" style="width: 90px;" alt="" /></a></li>
-                          <li style="text-align: center;"><a href="#">REGISTER NOW!<br> 100% FREE!</a></li>
+                          <li style="text-align: center;"><a href="#" style="text-align: center; background-color: #840000; color: #FFFFFF; border: 1px solid #840000; padding: 8px 15px;">REGISTER NOW - 100% FREE!</a></li>
                       </ul>
                   </div>
               </div>
@@ -162,7 +167,7 @@
           <li>
               <img src="images/live.png" alt="">
                 <div class="ct_banner_caption">
-                  <h2 class="fadeInDown" style="font-size: 65px; color: #FFFFFF; font-family: 'Parisienne', cursive; text-transform: capitalize; margin-bottom: 100px;">Learn, <span style="font-family: 'Arial'; color: #F0592B; font-size: 67px; font-weight: bold;">Live</span> & Love</h2>
+                  <h2 class="fadeInDown" style="font-size: 65px; color: #FFFFFF; font-family: 'Amorinda', cursive; text-transform: capitalize; margin-bottom: 100px;">Learn, <span style="font-family: 'Arial'; color: #F0592B; font-size: 67px; font-weight: bold;">Live</span> & Love</h2>
                     <p class="fadeInDown" style="color: #FFFFFF;">HELLO, ARE YOU READY TO START LIVING NOW ?</p>
                     <a class="active fadeInDown" href="#">Day in the life</a>
                     <a class="fadeInDown" href="#" style="color: #FFFFFF;">Student life</a>
@@ -180,7 +185,7 @@
         	<li>
             	<img src="images/love.png" alt="">
                 <div class="ct_banner_caption">
-                  <h2 class="fadeInDown" style="font-size: 65px; color: #FFFFFF; font-family: 'Parisienne', cursive; text-transform: capitalize; margin-bottom: 100px;">Learn, Live & <span style="font-family: 'Arial'; color: #F0592B; font-size: 67px; font-weight: bold;">Love</span></h2>
+                  <h2 class="fadeInDown" style="font-size: 65px; color: #FFFFFF; font-family: 'Amorinda', cursive; text-transform: capitalize; margin-bottom: 100px;">Learn, Live & <span style="font-family: 'Arial'; color: #F0592B; font-size: 67px; font-weight: bold;">Love</span></h2>
                     <p class="fadeInDown" style="color: #FFFFFF;">HELLO, ARE YOU READY TO START LOVING NOW ?</p>
                     <a class="active fadeInDown" href="#">Give back</a>
                     <a class="fadeInDown" href="#" style="color: #FFFFFF;">Scholarships</a>
@@ -211,7 +216,7 @@
             </li>
             <li>
                 <i class="fa fa-globe" aria-hidden="true"></i>
-                <h2 id="changeNumber">48%</h2><h2 id="changeText">EEUU</h2>
+                <h3 id="numeros">48%</h3> <h2 id="changeText">EEUU</h2>
                 <span>International atmosphere</span>
             </li>
 
@@ -219,25 +224,33 @@
 
                 <script type="text/javascript">
                 var text = ["EEUU", "England", "Netherland", "Switzerland", "Belguim", "Germany", "Canada", "Japan", "Others"];
+                var text2 = ["48%", "14%", "10%", "9%", "9%", "3%", "2%", "2%", "3%"];
                 var counter = 0;
+                var counter2 = 0;
                 var elem = document.getElementById("changeText");
+                var num = document.getElementById("numeros");
                 setInterval(change, 1500);
                 function change() {
                  elem.innerHTML = text[counter];
                     counter++;
                     if(counter >= text.length) { counter = 0; }
                 }
+                function cambio(){
+                  num.innerHTML = text2[counter2];
+                    counter2++;
+                    if(counter2 >= text2.length) { counter2 = 0; }
+                }
                 </script>
 
                 <!-- <script type="text/javascript">
-                var text = ["48%", "14%", "10%", "9%", "9%", "3%", "2%", "2%", "3%"];
-                var counter = 0;
-                var elem = document.getElementById("changeNumber");
-                setInterval(change, 1500);
-                function change() {
-                 elem.innerHTML = text[counter];
-                    counter++;
-                    if(counter >= text.length) { counter = 0; }
+                var textNum = ["48%", "14%", "10%", "9%", "9%", "3%", "2%", "2%", "3%"];
+                var counterNum = 0;
+                var elemNum = document.getElementById("changeNumber");
+                setInterval(changeNum, 1500);
+                function changeNum() {
+                 elem.innerHTML = textNum[counterNum];
+                    counterNum++;
+                    if(counterNum >= text.length) { counterNum = 0; }
                 }
                 </script> -->
 
@@ -296,7 +309,7 @@
             	<!--Heading Style 1 Wrap Start-->
                 <div class="ct_heading_1_wrap">
                 	<h3>Our Partnerships & Accreditation</h3>
-                    <p>Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consec <br/>tetuer adipis elit, aliquam eget nibh etlibura.</p>
+                    <p>Proud parterns of the following academic institutions.</p>
                     <span><img src="images/hdg-01.png" alt=""></span>
                 </div>
                 <!--Heading Style 1 Wrap End-->
@@ -424,6 +437,14 @@
                     	<div class="ct_course_list_wrap">
                         	<figure>
                             	<img src="images/partner14.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                    	<div class="ct_course_list_wrap">
+                        	<figure>
+                            	<img src="images/partner15.png" alt="">
                             </figure>
                         </div>
                     </div>
@@ -670,8 +691,8 @@
                         </div>
                         <!-- <a href="#"><p style="text-align: center; color: #F12312;">Red Cross <br>Register now</p></a> -->
                         <div class="" style="text-align: center;">
-                          <p style="text-align: center;">Red Cross</p>
-                          <a href="#" style="text-align: center; color: red;">Register here</a>
+                          <p style="text-align: center; font-size: 25px; margin-bottom: 30px; color: #840000">Red Cross</p>
+                          <a href="#" style="text-align: center; background-color: #840000; color: #FFFFFF; border: 1px solid #840000; padding: 8px 15px;">Register here</a>
                         </div>
                     </div>
 
@@ -682,8 +703,8 @@
                             </figure>
                         </div>
                         <div class="" style="text-align: center;">
-                          <p style="text-align: center;">FSI</p>
-                          <a href="#" style="text-align: center;">Register here</a>
+                          <p style="text-align: center; font-size: 25px; margin-bottom: 30px; color: #840000">FSI</p>
+                          <a href="#" style="text-align: center; background-color: #840000; color: #FFFFFF; border: 1px solid #840000; padding: 8px 15px;">Register here</a>
                         </div>
                     </div>
 
@@ -694,8 +715,8 @@
                             </figure>
                         </div>
                         <div class="" style="text-align: center;">
-                          <p style="text-align: center;">World Bank</p>
-                          <a href="#" style="text-align: center;">Register here</a>
+                          <p style="text-align: center; font-size: 25px; margin-bottom: 30px; color: #840000">World Bank</p>
+                          <a href="#" style="text-align: center; background-color: #840000; color: #FFFFFF; border: 1px solid #840000; padding: 8px 15px;">Register here</a>
                         </div>
                     </div>
 
@@ -770,15 +791,19 @@ ahead or slightly behind their classmates.
                     </div>
 
                     <div class="col-md-3 col-sm-6">
-                    	<div class="foo_col_4 widget">
+                    	<div class="foo_col_3 widget">
                         	<h5>Opening Hours</h5>
                             <ul>
-                            	<li style="color: #ffffff">Monday to Friday 8:30am to 6:00pm</li><br>
-                              <li style="color: #ffffff; margin-bottom:10px;">Weekends: CLOSED <br> National Holidays: CLOSED <br></li><br>
+                            	<li style="color: ##777777">Monday to Friday 8:30am to 6:00pm</li><br>
+                              <li style="color: ##777777">Weekends: Closed</li><br>
+                              <li style="color: ##777777">National Holidays: Closed</li><br>
+
+
                             </ul>
 
                             <br><br>
-                            <span style="color: #ffffff; padding-top: 35px;">Email : info@latinoschool.com</span>
+                            <span style="color: #ffffff; padding-top: 35px;">Email: <a href="mailto:info@latinoshool.com">info@latinoschool.com</a> </span>
+
                             <!-- <div class="foo_get_qoute"><br>
                             	<a href="contact.html">Request info</a>
                             </div> -->

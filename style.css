@@ -50,7 +50,7 @@ table{
 }
 
 .logo-inicio{
-	height: 49px;
+	height: 65px;
 }
 
 .space p {
@@ -203,6 +203,7 @@ section{
 .main_navigation ul{
 	float:left;
 	width:100%;
+	margin-top: 25px;
 }
 .main_navigation ul li{
 	position:relative;
@@ -1144,6 +1145,40 @@ section{
 
 #pic-bg7:hover{
 	background-image: url('images/leo2.png');
+	width: 100%;
+	height: 360px;
+}
+
+#pic-bg8{
+	background-image: url('images/peru-1.png');
+	width: 100%;
+	height: 360px;
+}
+
+#pic-bg8:hover{
+	background-image: url('images/peru-2.png');
+	width: 100%;
+	height: 360px;
+}
+#pic-bg9{
+	background-image: url('images/peru-3.png');
+	width: 100%;
+	height: 360px;
+}
+
+#pic-bg9:hover{
+	background-image: url('images/peru-4.png');
+	width: 100%;
+	height: 360px;
+}
+#pic-bg10{
+	background-image: url('images/peru-5.png');
+	width: 100%;
+	height: 360px;
+}
+
+#pic-bg10:hover{
+	background-image: url('images/peru-6.png');
 	width: 100%;
 	height: 360px;
 }
