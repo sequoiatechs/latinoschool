@@ -39,89 +39,107 @@
 <!--Wrapper Start-->
 <div class="ct_wrapper">
 
-    <!--Header Wrap Start-->
-    <header>
-    	<!--Top Strip Wrap Start-->
-      <div class="top_strip">
+  <!--Header Wrap Start-->
+  <header>
+
+
+
+
+      <!--Navigation Wrap Start-->
+      <div class="logo_nav_outer_wrap">
         <div class="container">
-              <div class="top_location_wrap">
-                <ul style="display: inline-block;">
-                  <li style="display: inline-block;"><p><img  class="flag flag-pe"/> Perú  </p></li>
-                  <li style="display: inline-block;"><p><img  class="flag flag-ec"/> Ecuador  </p></li>
-                  <li style="display: inline-block;"><p><img  class="flag flag-bo"/> Bolivia</p></li>
-                </ul>
+              <div class="logo_wrap">
+                  <a href="index.html"><img src="images/logo.png" class="logo-inicio" alt=""></a>
               </div>
-              <div class="top_ui_element">
+
+
+              <nav class="main_navigation">
                   <ul>
-                      <li><a href="#"><img src="images/paypal.gif" style="width: 90px;" alt="" /></a></li>
-                      <li><a href="#">APPLY NOW!</a></li>
+                      <li><a href="home.html">Home<span>Main Page</span></a>
+                      <li><a href="about.html">About us<span>The academy</span></a>
+                        <ul>
+                            <li><a href="about.html" style="color: #840000;">Who we are</a></li>
+                            <li><a href="staff.html" style="color: #840000;">Our staff</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#">Locations<span>Where we are</span></a>
+                        <ul>
+                            <li><a href="locations.html" style="color: #840000;">Schools</a></li>
+                            <li><a href="student-life.html" style="color: #840000;">Student life</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="tuition.html">Tuition<span>And prices</span></a></li>
+                      <li><a href="scolarship.html">Scholarships<span>for students</span></a></li>
+                      <li><a href="courses.html">Courses<span>We offer</span></a></li>
+                      <li><a href="internships.html">Internships<span>for you</span></a></li>
+
+                      <li><a href="contact-us.html">Contact us<span>Information</span></a>
+                      </li>
+                  </ul>
+              </nav>
+
+              <!--DL Menu Start-->
+              <div id="kode-responsive-navigation" class="dl-menuwrapper">
+                  <button class="dl-trigger">Open Menu</button>
+                  <ul class="dl-menu">
+                      <li class="active"><a href="index.html">Home</a></li>
+                      <li class="menu-item kode-parent-menu"><a href="#">About us</a>
+                          <ul class="dl-submenu">
+                              <li><a href="about.html">Who we are</a></li>
+                              <li><a href="staff.html">Our staff</a></li>
+                          </ul>
+                      </li>
+                      <li class="menu-item kode-parent-menu"><a href="#">Locations</a>
+                          <ul class="dl-submenu">
+                              <li><a href="locations.html">Schools</a></li>
+                              <li><a href="student-life.html">Student life</a></li>
+                          </ul>
+                      </li>
+                      <li class="menu-item kode-parent-menu"><a href="tuition.html">Tuition</a></li>
+                      <li class="menu-item kode-parent-menu"><a href="scolarship.html">Scholarships</a></li>
+                      <li class="menu-item kode-parent-menu"><a href="courses.html">Courses</a></li>
+                      <li class="menu-item kode-parent-menu"><a href="internships.html">Internships</a></li>
+                      <li class="menu-item kode-parent-menu"><a href="contact-us.html">Contact us</a>
+                      </li>
                   </ul>
               </div>
+              <!--DL Menu END-->
           </div>
       </div>
-        <!--Top Strip Wrap End-->
+      <!--Navigation Wrap End-->
 
-        <!--Navigation Wrap Start-->
-        <div class="logo_nav_outer_wrap">
-        	<div class="container">
-                <div class="logo_wrap">
-                    <a href="index.html"><img src="images/logo.png" class="logo-inicio" alt=""></a>
+      <!--Top Strip Wrap Start-->
+        <div class="top_strip">
+          <div class="container">
+                <div class="top_location_wrap">
+                  <!-- Campuses in -->
+                  <ul style="display: inline-block;">
+                    <!-- <li style="display: inline-block;"><p>Ecuador <img src="images/vector-ec.png" alt="" style="width: 25px; margin-right: 15px;"> </p></li>
+                    <li style="display: inline-block;"><p> Perú <img src="images/eagle.png" alt="" style="width: 25px; margin-right: 15px;"> </p></li>
+                    and
+                    <li style="display: inline-block;"><p> Bolivia <img src="images/llama.png" alt="" style="width: 25px"></p></li> -->
+                    <li style="font-family: 'Amorinda'; color: #840000; font-size: 28px; display: inline-block; margin-right: 100px; font-weight: bold;"><img src="images/turtle.png" alt="" style="width: 30px; margin: -5px 10px 0px 0px;">Ecuador</li>
+                    <li style="font-family: 'Amorinda'; color: #840000; font-size: 28px; display: inline-block; margin-right: 100px; font-weight: bold;"> <img src="images/llama.png" alt="" style="width: 30px; margin: -5px 10px 0px 0px;">Peru</li>
+                    <li style="font-family: 'Amorinda'; color: #840000; font-size: 28px; display: inline-block; font-weight: bold;"><img src="images/parrot.png" alt="" style="width: 30px; margin: -5px 10px 0px 0px;">Bolivia</li>
+
+                  </ul>
                 </div>
-
-                <nav class="main_navigation">
+                <div class="top_ui_element">
                     <ul>
-                        <li><a href="home.html">Home<span>Main Page</span></a>
-                        <li><a href="about.html">About us<span>The academy</span></a>
-                          <ul>
-                              <li><a href="about.html" style="color: #840000;">Who we are</a></li>
-                              <li><a href="staff.html" style="color: #840000;">Our staff</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Locations<span>Where we are</span></a>
-                        	<ul>
-                            	<li><a href="locations.html" style="color: #840000;">Schools</a></li>
-                              <li><a href="student-life.html" style="color: #840000;">Student life</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="tuition.html">Tuition<span>And prices</span></a></li>
-                        <li><a href="scolarship.html">Scholarships<span>for students</span></a></li>
-                        <li><a href="courses.html">Courses<span>We offer</span></a></li>
-                        <li><a href="internships.html">Internships<span>for you</span></a></li>
-
-                        <li><a href="contact-us.html">Contact us<span>Information</span></a>
-                        </li>
-                    </ul>
-                </nav>
-                <!--DL Menu Start-->
-                <div id="kode-responsive-navigation" class="dl-menuwrapper">
-                    <button class="dl-trigger">Open Menu</button>
-                    <ul class="dl-menu">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li class="menu-item kode-parent-menu"><a href="#">About us</a>
-                            <ul class="dl-submenu">
-                                <li><a href="about.html">Who we are</a></li>
-                                <li><a href="staff.html">Our staff</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item kode-parent-menu"><a href="#">Locations</a>
-                            <ul class="dl-submenu">
-                                <li><a href="locations.html">Schools</a></li>
-                                <li><a href="student-life.html">Student life</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item kode-parent-menu"><a href="tuition.html">Tuition</a></li>
-                        <li class="menu-item kode-parent-menu"><a href="scolarship.html">Scolarships</a></li>
-                        <li class="menu-item kode-parent-menu"><a href="courses.html">Courses</a></li>
-                        <li class="menu-item kode-parent-menu"><a href="#">Internships</a></li>
-                        <li class="menu-item kode-parent-menu"><a href="contact-us.html">Contact us</a></li>
+                        <li><a href="#"><img src="images/paypal.gif" style="width: 90px;" alt="" /></a></li>
+                        <li style="text-align: center;"><a href="#" style="text-align: center; background-color: #840000; color: #FFFFFF; border: 1px solid #840000; padding: 8px 15px;">REGISTER NOW - 100% FREE!</a></li>
                     </ul>
                 </div>
-                <!--DL Menu END-->
             </div>
         </div>
-        <!--Navigation Wrap End-->
-    </header>
-    <!--Header Wrap End-->
+        <!--Top Strip Wrap End-->
+
+
+
+
+
+  </header>
+  <!--Header Wrap End-->
 
 
 
@@ -132,12 +150,48 @@
 
       <!--Most Popular Courses Wrap Start-->
 
-
-
-
-
-
       <section>
+        <div class="container">
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Calculate price <span style="color: #777777;">(Click here)</span>
+                  </a>
+                </h4>
+              </div>
+
+              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                      60%
+                    </div>
+                  </div>
+
+                  <div class="question">
+                    <h4>English Courses</h4><br>
+                    <ul>
+                      <li><input type="radio" name="name" value=""> Adult courses</li>
+                      <li><input type="radio" name="name" value=""> Junior courses</li>
+                      <li><input type="radio" name="name" value=""> Family courses</li>
+                    </ul>
+                  </div>
+                    <br>
+                  <button type="button" style="background-color: #840000; color: #FFFFFF; padding: 10px 20px;"name="button">Next</button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section style="margin-top: -100px;">
         <div class="container">
             <!--Heading Style 1 Wrap Start-->
               <div class="ct_heading_1_wrap">
@@ -147,12 +201,15 @@
               <!--Heading Style 1 Wrap End-->
 
                 <p class="text-justify">
-                  All prices are in US dollars. Weekly Spanish Program includes 5 days of classes (from Monday to Friday) and 7 days accommodation with a host family or at the school residence. Accommodation starts on Sunday before you start classes and ends on Saturday after you finish classes.
-                  Board (at the host family only): 2 meals per day (breakfast and dinner in Ecuador, breakfast and lunch in Peru and Bolivia), laundry service once a week. Flavors of the Andes: 3 meals per day. At the student residence there are no meals or laundry included, however there's a shared kitchen to prepare their own meals.
-                  Also included in the weekly rate: placement test, city tour, orientation session and course certificate. Mail service, money exchange, wireless access to internet, luggage storage. Security boxes at extra charge.
-                  Course starting dates: Every Monday all year round. (Please check holidays in each country).
-                  Available extra services: see below.
-                </p><br><br>
+                  <i class="fa fa-check" aria-hidden="true" style="margin-right: 5px;"></i>All prices are in US dollars.<br><br>
+                  <i class="fa fa-check" aria-hidden="true" style="margin-right: 5px;"></i>Weekly Spanish Program includes 5 days of classes (from Monday to Friday) and 7 days accommodation with a host family or at the school residence.<br><br>
+                  <i class="fa fa-check" aria-hidden="true" style="margin-right: 5px;"></i>Accommodation starts on Sunday before you start classes and ends on Saturday after you finish classes.<br><br>
+                  <i class="fa fa-check" aria-hidden="true" style="margin-right: 5px;"></i>Board (at the host family only): 2 meals per day (breakfast and dinner in Ecuador, breakfast and lunch in Peru and Bolivia), laundry service once a week. Flavors of the Andes: 3 meals per day.<br><br>
+                  <i class="fa fa-check" aria-hidden="true" style="margin-right: 5px;"></i>At the student residence there are no meals or laundry included, however there's a shared kitchen to prepare your own meals.<br><br>
+                  <i class="fa fa-check" aria-hidden="true" style="margin-right: 5px;"></i>Also included in the weekly rate: placement test, city tour, orientation session and course certificate.<br><br>
+                  <i class="fa fa-check" aria-hidden="true" style="margin-right: 5px;"></i>Mail service, money exchange, wireless access to internet - wifi, luggage storage. Security boxes at extra charge.<br><br>
+                  <i class="fa fa-check" aria-hidden="true" style="margin-right: 5px;"></i>Course starting dates: Every Monday all year round. (Please check holidays in each country).<br><br>
+                </p>
 
 
 
@@ -163,6 +220,16 @@
 
 
 
+          </div>
+        </section>
+
+
+
+        <section style="margin-top: -120px;">
+          <div class="container">
+              <div class="col-md-12">
+                <img src="images/holidays.png" alt="">
+              </div>
           </div>
         </section>
 
@@ -179,45 +246,7 @@
 
 
 
-        <section>
-          <div class="container">
-            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingThree">
-                  <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Calculate price
-                    </a>
-                  </h4>
-                </div>
 
-                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                  <div class="panel-body">
-
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                        60%
-                      </div>
-                    </div>
-
-                    <div class="question">
-                      <h4>English Courses</h4><br>
-                      <ul>
-                        <li><input type="radio" name="name" value=""> Adult courses</li>
-                        <li><input type="radio" name="name" value=""> Junior courses</li>
-                        <li><input type="radio" name="name" value=""> Family courses</li>
-                      </ul>
-                    </div>
-                      <br>
-                    <button type="button" style="background-color: #840000; color: #FFFFFF; padding: 10px 20px;"name="button">Next</button>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </section>
 
 
 
@@ -233,51 +262,66 @@
         <div class="ct_footer_bg">
         	<div class="container">
             	<div class="row">
-                	<div class="col-md-3">
+                	<div class="col-md-3 col-sm-6">
                     	<div class="footer_col_1 widget">
                         	<a href="#"><img src="images/footer-logo.png" alt=""></a>
-                            <p>Meet our profesionals they are passonate about. Aenean massa. Lorem ipsum dolor sit amet, consec tetuer adipis elit, aliquam eget nibh etlibura.</p>
-                            <span>Email : info@latinoschool.com</span>
-                            <div class="foo_get_qoute">
-                            	<a href="#">GET A QOUTE</a>
-                            </div>
+                            <p style="text-align: justify; font-size: 13px;">Our courses accommodate the complete Beginner through Advanced levels,
+operating year-round, with open enrollment dates.<br>
+Our excellent testing program allows student placement at their exact
+level, and weekly evaluations allow students to move at their own pace.<br>
+They are continually challenged, but not frustrated by being slightly
+ahead or slightly behind their classmates.
+
+
+</p>
+
                         </div>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-6">
                     	<div class="foo_col_2 widget">
                         	<h5>More Pages</h5>
                             <ul>
-                            	<li><a href="#">Our Courses</a></li>
+                              <li><a href="#">Press Coverage</a></li>
+                            	<li><a href="courses.html">Our Courses</a></li>
                                 <li><a href="#">Online Courses</a></li>
-                                <li><a href="#">Best Learning</a></li>
-                                <li><a href="#">Education Links</a></li>
                             </ul>
                         </div>
                     </div>
 
-                     <div class="col-md-3">
+                     <div class="col-md-3 col-sm-6">
                     	<div class="foo_col_2 widget">
                         	<h5>Quick Links</h5>
                             <ul>
-                            	<li><a href="#">Our Courses</a></li>
+                            	<li><a href="courses.html">Our Courses</a></li>
                                 <li><a href="#">Online Courses</a></li>
-                                <li><a href="#">Best Learning</a></li>
-                                <li><a href="#">Education Links</a></li>
-                                <li><a href="#">DaownloadApp</a></li>
+                                <li><a href="student-life.html">Student Life</a></li>
+                                <li><a href="tuition.html">Tuition</a></li>
+                                <li><a href="staff.html">Our Staff</a></li>
                             </ul>
+                        </div>
+                        <div class="foo_get_qoute"><br><br><br><br>
+                          <a href="contact.html" style="padding: 13px 90px; ">Request info</a>
                         </div>
                     </div>
 
-                    <div class="col-md-3">
-                    	<div class="foo_col_4 widget">
+                    <div class="col-md-3 col-sm-6">
+                    	<div class="foo_col_3 widget">
                         	<h5>Opening Hours</h5>
                             <ul>
-                            	<li>Monday to Friday 9:00am to 5:00pm</li>
-                                <li>Saturday 9:00am to 4:00pm</li>
-                                <li></li>
-                                <li>Sunday: CLOSED</li>
+                            	<li style="color: ##777777">Monday to Friday 8:30am to 6:00pm</li><br>
+                              <li style="color: ##777777">Weekends: Closed</li><br>
+                              <li style="color: ##777777">National Holidays: Closed</li><br>
+
+
                             </ul>
+
+                            <br><br>
+                            <span style="color: #ffffff; padding-top: 35px;">Email: <a href="mailto:info@latinoshool.com">info@latinoschool.com</a> </span>
+
+                            <!-- <div class="foo_get_qoute"><br>
+                            	<a href="contact.html">Request info</a>
+                            </div> -->
                         </div>
                     </div>
 
@@ -292,22 +336,17 @@
             	<div class="row">
                 	<div class="col-md-6">
                     	<div class="copyright_text">
-                        	Built with <a class="fa fa-heart" href="#"></a> from <a href="#">Sequoia Techs</a>. All right reserved
+                        	Built with <a class="fa fa-heart" href="#"></a> from <a href="http://sequoiatechs.com" style="color: #ffffff">Sequoia Techs</a>. All right reserved
                         </div>
                     </div>
                     <div class="col-md-6">
                     	<div class="copyright_social_icon">
                         	<ul>
-                            	<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            	<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                             	<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            	<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            	<li><a href="https://www.facebook.com/Latinoschools/?fref=ts"><i class="fa fa-facebook"></i></a></li>
                             </ul>
                         </div>
                     </div>
-                </div>
-                <div class="back_to_top">
-                	<a href="#"><i class="fa fa-angle-up"></i></a>
                 </div>
             </div>
         </div>

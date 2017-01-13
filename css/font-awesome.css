@@ -372,6 +372,8 @@
 }
 .fa-map-marker:before {
   content: "\f041";
+  font-size: 50px;
+  color: #3a84df;
 }
 .fa-adjust:before {
   content: "\f042";
@@ -513,6 +515,8 @@
 }
 .fa-plane:before {
   content: "\f072";
+  font-size: 50px;
+  color: #0da910;
 }
 .fa-calendar:before {
   content: "\f073";
@@ -602,6 +606,8 @@
 }
 .fa-trophy:before {
   content: "\f091";
+  font-size: 50px;
+  color: #dc951b;
 }
 .fa-github-square:before {
   content: "\f092";
@@ -682,6 +688,11 @@
 }
 .fa-globe:before {
   content: "\f0ac";
+  font-size: 50px;
+  color: #0d6a17;
+}
+.fa-globe2:before {
+  content: "\f0ac";
 }
 .fa-wrench:before {
   content: "\f0ad";
@@ -701,6 +712,8 @@
 .fa-group:before,
 .fa-users:before {
   content: "\f0c0";
+  font-size: 50px;
+  color: #e09100;
 }
 .fa-chain:before,
 .fa-link:before {
@@ -960,6 +973,8 @@
 }
 .fa-smile-o:before {
   content: "\f118";
+  font-size: 50px;
+  color: #a2a200;
 }
 .fa-frown-o:before {
   content: "\f119";
@@ -1358,6 +1373,8 @@
 .fa-mortar-board:before,
 .fa-graduation-cap:before {
   content: "\f19d";
+  font-size: 50px;
+  color: #31708f;
 }
 .fa-yahoo:before {
   content: "\f19e";
@@ -1992,6 +2009,8 @@
 }
 .fa-calendar-check-o:before {
   content: "\f274";
+  font-size: 50px;
+  color: #ce3d18;
 }
 .fa-industry:before {
   content: "\f275";
