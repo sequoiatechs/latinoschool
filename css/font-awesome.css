@@ -974,6 +974,10 @@
 .fa-smile-o:before {
   content: "\f118";
   font-size: 50px;
+}
+.fa-smile-o2:before {
+  content: "\f118";
+  font-size: 50px;
   color: #a2a200;
 }
 .fa-frown-o:before {

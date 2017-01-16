@@ -23,6 +23,10 @@
 	.section-arriba{
 		margin-top: -30px;
 	}
+	.credito-text{
+		padding-bottom: 50px;
+
+	}
 }
 /*============	Media 768Px Start ============ */
 @media (min-width: 768px) and (max-width: 990px) {
@@ -56,6 +60,10 @@
 	}
 	.ct_learn_more{
 		text-align:center;
+	}
+	.credito-text{
+		/*margin-bottom: 50px;
+		margin-top: -30px;*/
 	}
 	.ct_learn_more h4{
 		margin:0px 0px 20px;
@@ -119,6 +127,8 @@
 	.sub_banner_hdg, .ct_breadcrumb,
 	.ct_breadcrumb{
 		text-align:center;
+		margin-left: -290px;
+		width: 310px;
 	}
 	.gt_aside_outer_wrap{
 		margin-top:25px;
@@ -146,6 +156,40 @@
 	.ct_banner_caption{
 		display:none;
 	}
+	.sub_banner_wrap{
+		height: 100px;
+	}
+	.cajas-arriba{
+		margin-top: 20px;
+	}
+	.credito-text{
+		margin-bottom: -90px;
+	}
+	.foto-diego{
+		margin-left: 0px;
+	}
+	.izq-img{
+		margin-left: -30px;
+	}
+	.izq-img:hover{
+		margin-left: 0px;
+	}
+	#pic-bg-ec{
+		background-size: contain;
+		height: 237px;
+	}
+	#pic-bg-peru{
+		background-size: contain;
+		height: 237px;
+	}
+	#pic-bg-ec:hover{
+		background-size: contain;
+		height: 237px;
+	}
+	#pic-bg-peru:hover{
+		background-size: contain;
+		height: 237px;
+	}
 	.logo-res{
 		margin-bottom: -70px;
     margin-left: 30px;
@@ -168,6 +212,7 @@
 	}
 	.btn-principal{
 		margin-left: -280px;
+		z-index: 1;
 	}
 	.btn-abajo{
 		margin-bottom: 50px;

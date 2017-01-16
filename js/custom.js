@@ -143,11 +143,11 @@ $(document).ready(function(){
 	*/
 	if($('.testimonial_carousel').length){
 		$('.testimonial_carousel').owlCarousel({
-			loop:true,
-			autoplay:true,
+			loop:false,
+			autoplay:false,
 			autoplayTimeout:4000,
-			autoplayHoverPause:true,
-			nav:true,
+			autoplayHoverPause:false,
+			nav:false,
 			responsive:{
 				0:{items:1},
 				480:{items:1},

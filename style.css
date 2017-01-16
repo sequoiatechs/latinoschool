@@ -31,6 +31,11 @@
 	//-- Blog Page
 */
 
+
+.foto-diego{
+	margin-left: 29%;
+}
+
 .address{
 	color: #ffffff;
 	background-color: #840000;
@@ -1100,6 +1105,7 @@ section{
 
 #pic-bg1{
 	background-image: url('images/diego1.png');
+	background-size: cover;
 	width: 100%;
 	height: 360px;
 }
@@ -1112,6 +1118,7 @@ section{
 
 #pic-bg2{
 	background-image: url('images/patty1.png');
+	background-size: cover;
 	width: 100%;
 	height: 360px;
 }
@@ -1124,6 +1131,7 @@ section{
 
 #pic-bg3{
 	background-image: url('images/mayke1.png');
+	background-size: cover;
 	width: 100%;
 	height: 360px;
 }
@@ -1136,6 +1144,7 @@ section{
 
 #pic-bg4{
 	background-image: url('images/gabby1.png');
+	background-size: cover;
 	width: 100%;
 	height: 360px;
 }
@@ -1148,6 +1157,7 @@ section{
 
 #pic-bg5{
 	background-image: url('images/sandra1.png');
+	background-size: cover;
 	width: 100%;
 	height: 360px;
 }
@@ -1160,6 +1170,7 @@ section{
 
 #pic-bg6{
 	background-image: url('images/santi1.png');
+	background-size: cover;
 	width: 100%;
 	height: 360px;
 }
@@ -1172,6 +1183,7 @@ section{
 
 #pic-bg7{
 	background-image: url('images/leo1.png');
+	background-size: cover;
 	width: 100%;
 	height: 360px;
 }
@@ -1184,6 +1196,7 @@ section{
 
 #pic-bg8{
 	background-image: url('images/mayk1.png');
+	background-size: cover;
 	width: 100%;
 	height: 360px;
 }
@@ -1195,6 +1208,7 @@ section{
 }
 #pic-bg9{
 	background-image: url('images/rebeca1.png');
+	background-size: cover;
 	width: 100%;
 	height: 360px;
 }
@@ -1206,6 +1220,7 @@ section{
 }
 #pic-bg10{
 	background-image: url('images/horti1.png');
+	background-size: cover;
 	width: 100%;
 	height: 360px;
 }
@@ -1217,6 +1232,7 @@ section{
 }
 #pic-bg11{
 	background-image: url('images/gorki1.png');
+	background-size: cover;
 	width: 100%;
 	height: 360px;
 }
@@ -1228,6 +1244,7 @@ section{
 }
 #pic-bg12{
 	background-image: url('images/helenize1.png');
+	background-size: cover;
 	width: 100%;
 	height: 360px;
 }
@@ -1239,6 +1256,7 @@ section{
 }
 #pic-bg13{
 	background-image: url('images/rosemary1.png');
+	background-size: cover;
 	width: 100%;
 	height: 360px;
 }
@@ -1418,7 +1436,7 @@ display: none;
 	left:0px;
 	width:100%;
 	height:100%;
-	background-color:rgba(0,0,0,0.75);
+	background-color:rgba(0,0,0,0.55);
 }
 .testimonial_carousel{
 	float:left;

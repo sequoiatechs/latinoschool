@@ -43,12 +43,10 @@
   <header>
       <!--Navigation Wrap Start-->
       <div class="logo_nav_outer_wrap">
-        <div class="container">
+        <div class="container espacio-arriba">
               <div class="logo_wrap">
-                  <a href="index.html"><img src="images/logo.png" class="logo-inicio" alt=""></a>
+                  <a href="index.html"><img src="images/logo.png" class="logo-inicio logo-res" alt=""></a>
               </div>
-
-
               <nav class="main_navigation">
                   <ul>
                       <li><a href="home.html">Home<span>Main Page</span></a>
@@ -60,18 +58,16 @@
                       </li>
                       <li><a href="#">Locations<span>Where we are</span></a>
                         <ul>
-                            <li><a href="locations.html" style="color: #840000;">Quito - Ecuador</a></li>
-                            <li><a href="locations.html" style="color: #840000;">Cusco - Peru</a></li>
-                            <li><a href="locations.html" style="color: #840000;">Sucre - Bolivia</a></li>
-
+                            <li><a href="quito.html" style="color: #840000;">Quito - Ecuador</a></li>
+                            <li><a href="cusco.html" style="color: #840000;">Cusco - Peru</a></li>
+                            <li><a href="sucre.html" style="color: #840000;">Sucre - Bolivia</a></li>
                             <li><a href="student-life.html" style="color: #840000;">Student life</a></li>
                           </ul>
                       </li>
-                      <li><a href="tuition.html">Tuition<span>And prices</span></a></li>
-                      <li><a href="scolarship.html">Scholarships<span>for students</span></a></li>
                       <li><a href="programs.html">Courses<span>We offer</span></a></li>
                       <li><a href="internships.html">Internships<span>for you</span></a></li>
-
+                      <li><a href="tuition.html">Tuition<span>And prices</span></a></li>
+                      <li><a href="scolarship.html">Scholarships<span>and grants</span></a></li>
                       <li><a href="contact-us.html">Contact us<span>Information</span></a>
                       </li>
                   </ul>
@@ -79,9 +75,9 @@
 
               <!--DL Menu Start-->
               <div id="kode-responsive-navigation" class="dl-menuwrapper">
-                  <button class="dl-trigger">Open Menu</button>
-                  <ul class="dl-menu">
-                      <li class="active"><a href="index.html">Home</a></li>
+                  <button class="dl-trigger btn-principal">Open Menu</button>
+                  <ul class="dl-menu" style="margin-left: -160px;">
+                      <li class="active"><a href="home.html">Home</a></li>
                       <li class="menu-item kode-parent-menu"><a href="#">About us</a>
                           <ul class="dl-submenu">
                               <li><a href="about.html">Who we are</a></li>
@@ -90,14 +86,16 @@
                       </li>
                       <li class="menu-item kode-parent-menu"><a href="#">Locations</a>
                           <ul class="dl-submenu">
-                              <li><a href="locations.html">Schools</a></li>
-                              <li><a href="student-life.html">Student life</a></li>
+                            <li><a href="quito.html" style="color: #840000;">Quito - Ecuador</a></li>
+                            <li><a href="cusco.html" style="color: #840000;">Cusco - Peru</a></li>
+                            <li><a href="sucre.html" style="color: #840000;">Sucre - Bolivia</a></li>
+                            <li><a href="student-life.html" style="color: #840000;">Student life</a></li>
                           </ul>
                       </li>
+                      <li class="menu-item kode-parent-menu"><a href="programs.html">Courses</a></li>
+                      <li class="menu-item kode-parent-menu"><a href="internships.html">Internships</a></li>
                       <li class="menu-item kode-parent-menu"><a href="tuition.html">Tuition</a></li>
                       <li class="menu-item kode-parent-menu"><a href="scolarship.html">Scholarships</a></li>
-                      <li class="menu-item kode-parent-menu"><a href="courses.html">Courses</a></li>
-                      <li class="menu-item kode-parent-menu"><a href="internships.html">Internships</a></li>
                       <li class="menu-item kode-parent-menu"><a href="contact-us.html">Contact us</a>
                       </li>
                   </ul>
@@ -113,30 +111,20 @@
                 <div class="top_location_wrap">
                   <!-- Campuses in -->
                   <ul style="display: inline-block;">
-                    <!-- <li style="display: inline-block;"><p>Ecuador <img src="images/vector-ec.png" alt="" style="width: 25px; margin-right: 15px;"> </p></li>
-                    <li style="display: inline-block;"><p> Perú <img src="images/eagle.png" alt="" style="width: 25px; margin-right: 15px;"> </p></li>
-                    and
-                    <li style="display: inline-block;"><p> Bolivia <img src="images/llama.png" alt="" style="width: 25px"></p></li> -->
-                    <li style="font-family: 'Amorinda'; color: #840000; font-size: 28px; display: inline-block; margin-right: 100px; font-weight: bold;"><img src="images/turtle.png" alt="" style="width: 30px; margin: -5px 10px 0px 0px;">Ecuador</li>
+                    <li class="ecuador-mobile" style="font-family: 'Amorinda'; color: #840000; font-size: 28px; display: inline-block; margin-right: 100px; font-weight: bold;"><img src="images/turtle.png" alt="" style="width: 30px; margin: -5px 10px 0px 0px;">Ecuador</li>
                     <li style="font-family: 'Amorinda'; color: #840000; font-size: 28px; display: inline-block; margin-right: 100px; font-weight: bold;"> <img src="images/llama.png" alt="" style="width: 30px; margin: -5px 10px 0px 0px;">Peru</li>
                     <li style="font-family: 'Amorinda'; color: #840000; font-size: 28px; display: inline-block; font-weight: bold;"><img src="images/parrot.png" alt="" style="width: 30px; margin: -5px 10px 0px 0px;">Bolivia</li>
-
                   </ul>
                 </div>
                 <div class="top_ui_element">
                     <ul>
-                        <li><a href="#"><img src="images/paypal.gif" style="width: 90px;" alt="" /></a></li>
+                        <li><a href="#"><img class="paypal-mobile" src="images/paypal.gif" style="width: 90px;" alt="" /></a></li>
                         <li style="text-align: center;"><a href="#" style="text-align: center; background-color: #840000; color: #FFFFFF; border: 1px solid #840000; padding: 8px 15px;">REGISTER NOW - 100% FREE!</a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <!--Top Strip Wrap End-->
-
-
-
-
-
   </header>
   <!--Header Wrap End-->
 
@@ -305,8 +293,8 @@ Ecuador, Peru or Bolivia will be transferable beyond Latin America!
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                    	<div class="accor_outer_wrap">
+                    <div class="col-md-6" >
+                    	<div class="accor_outer_wrap cajas-arriba">
                         <div class="ct_accord_list">
                               <div class="accord_hdg border-red" id="accord2">
                                   <h6>SUPER INTENSIVE PROGRAM</h6>
@@ -446,38 +434,34 @@ Ecuador, Peru or Bolivia will be transferable beyond Latin America!
                         </div>
                         <div class="ct_accord_list">
                               <div class="accord_hdg border-yellow" id="accord1">
-                                  <h6>TEACHER METHODOLOGY PROGRAM</h6>
+                                  <h6>SPANISH FOR MEDICAL PERSONNEL</h6>
                                   <span class="fa fa-angle-down" style="color: #bfb919;"></span>
                               </div>
                               <div class="accord_des">
 
-                                <p style="text-align: justify;">A series of seminars on the teaching of culture, literature, grammar,
-conversation and composition. Students will collect authentic materials
-for the classroom and will use them to devise spiraled lesson plans for
-their own classes in the United States or Europe. Term paper and weekly seminar with
-program director required. Lab experience includes conversational
-interchange with a native and analyses of journals.
+                                <p style="text-align: justify;">Acquisition of specific medical vocabulary in Spanish, and the study of
+medical situations on hospitals and clinics.
                                 <table class="table-fill">
                                 <tbody class="table-hover">
                                 <tr>
                                 <td class="text-left" style="width: 170px;"><b>Length of time:</b></td>
-                                <td class="text-left">2 weeks.</td>
+                                <td class="text-left">1 to 3 weeks, 4 hours a day.</td>
                                 </tr>
                                 <tr>
                                 <td class="text-left" style="width: 170px;"><b>Students per class:</b></td>
-                                <td class="text-left">12 students per class.</td>
+                                <td class="text-left">5 students per class.</td>
                                 </tr>
                                 <tr>
                                 <td class="text-left" style="width: 170px;"><b>Advantages:</b></td>
-                                <td class="text-left">Super dynamic course.</td>
+                                <td class="text-left">Course available from beginner to upper Spanish level.</td>
                                 </tr>
                                 <tr>
                                 <td class="text-left" style="width: 170px;"><b># of hours:</b></td>
-                                <td class="text-left">Total of 40 hours per week.</td>
+                                <td class="text-left">Total of 20 hours per week.</td>
                                 </tr>
                                 <tr>
                                 <td class="text-left" style="width: 170px;"><b>Price:</b></td>
-                                <td class="text-left">$1,220 per person for the two week program including classes, activities with transportation, entrances, tickets and host family accommodation with two meals per day.</td>
+                                <td class="text-left">$450 per person per week including classes and hostfamily accommodation with two meals per day.</td>
                                 </tr>
                                 </tbody>
                                 </table>
@@ -487,7 +471,7 @@ interchange with a native and analyses of journals.
                         </div>
                     </div>
                     <div class="col-md-6">
-                      <div class="accor_outer_wrap">
+                      <div class="accor_outer_wrap cajas-arriba">
                         <div class="ct_accord_list">
                               <div class="accord_hdg border-red" id="accord2">
                                   <h6>FLAVORS  OF THE ANDES</h6>
@@ -605,7 +589,7 @@ exam level and your needs.
                         </div>
                     </div>
                     <div class="col-md-6">
-                      <div class="accor_outer_wrap">
+                      <div class="accor_outer_wrap cajas-arriba">
                         <div class="ct_accord_list">
                               <div class="accord_hdg border-orange" id="accord3">
                                   <h6>TEEN PROGRAM</h6>
@@ -662,7 +646,6 @@ per day and snacks. Please contact us for detail schedule and activities.</td>
 
 
 
-
     <!--Empezar aqui 3da árte-->
     <div class="ct_content_wrap course-table">
         <!--Faqs and Term Wrap Start-->
@@ -670,8 +653,53 @@ per day and snacks. Please contact us for detail schedule and activities.</td>
           <div class="container">
                 <!--Faqs and Term List Wrap Start-->
                 <div class="row">
-                  <div class="col-md-6 col-md-offset-3">
+                  <div class="col-md-6">
                       <div class="accor_outer_wrap">
+                        <div class="ct_accord_list">
+                              <div class="accord_hdg border-yellow" id="accord1">
+                                  <h6>TEACHER METHODOLOGY PROGRAM</h6>
+                                  <span class="fa fa-angle-down" style="color: #bfb919;"></span>
+                              </div>
+                              <div class="accord_des">
+
+                                <p style="text-align: justify;">A series of seminars on the teaching of culture, literature, grammar,
+conversation and composition. Students will collect authentic materials
+for the classroom and will use them to devise spiraled lesson plans for
+their own classes in the United States or Europe. Term paper and weekly seminar with
+program director required. Lab experience includes conversational
+interchange with a native and analyses of journals.
+                                <table class="table-fill">
+                                <tbody class="table-hover">
+                                <tr>
+                                <td class="text-left" style="width: 170px;"><b>Length of time:</b></td>
+                                <td class="text-left">2 weeks.</td>
+                                </tr>
+                                <tr>
+                                <td class="text-left" style="width: 170px;"><b>Students per class:</b></td>
+                                <td class="text-left">12 students per class.</td>
+                                </tr>
+                                <tr>
+                                <td class="text-left" style="width: 170px;"><b>Advantages:</b></td>
+                                <td class="text-left">Super dynamic course.</td>
+                                </tr>
+                                <tr>
+                                <td class="text-left" style="width: 170px;"><b># of hours:</b></td>
+                                <td class="text-left">Total of 40 hours per week.</td>
+                                </tr>
+                                <tr>
+                                <td class="text-left" style="width: 170px;"><b>Price:</b></td>
+                                <td class="text-left">$1,220 per person for the two week program including classes, activities with transportation, entrances, tickets and host family accommodation with two meals per day.</td>
+                                </tr>
+                                </tbody>
+                                </table>
+                                </p>
+                              </div>
+                          </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="accor_outer_wrap cajas-arriba">
                         <div class="ct_accord_list">
                               <div class="accord_hdg border-red" id="accord1">
                                   <h6>SPANISH CLASSES ONLINE</h6>
@@ -711,7 +739,6 @@ per day and snacks. Please contact us for detail schedule and activities.</td>
                                 </p>
                               </div>
                         </div>
-
                         </div>
                     </div>
                 </div>
@@ -721,6 +748,20 @@ per day and snacks. Please contact us for detail schedule and activities.</td>
         <!--Faqs and Term Wrap End-->
     </div>
     <!--termindar aqii-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -768,16 +809,18 @@ per day and snacks. Please contact us for detail schedule and activities.</td>
 
       <section class="ct_blog_simple_bg" style="margin-top: -50px;">
         <div class="container">
-          <div class="ct_heading_1_wrap">
+          <div class="ct_heading_1_wrap" style="margin-bottom: -10px;">
               <span><img src="images/hdg-01.png" alt=""></span>
           </div>
         </div>
       </section>
+                <div class="credito-text">
+                  <h3 style="margin-bottom: 30px;">NEED UNIVERSITY CREDIT?<br></h3>
+                </div>
 
-                <h3 style="margin-top: -30px; margin-bottom: 30px;">NEED UNIVERSITY CREDIT?<br></h3>
                 <div class="col-md-12">
                   <div class="col-md-6">
-                    <img src="images/partner15.png" style="margin-top: 80px;" alt="">
+                    <img src="images/partner15.png" style="margin-top: 80px; margin-bottom: 20px;" alt="">
                   </div>
                   <div class="col-md-6">
                     <p style="text-align: left; font-size: 20px;" >
@@ -814,16 +857,13 @@ per day and snacks. Please contact us for detail schedule and activities.</td>
 
     <!--Footer Wrap Start-->
     <footer>
-
-
-        <!--Footer Col Wrap Start-->
         <div class="ct_footer_bg">
         	<div class="container">
             	<div class="row">
                 	<div class="col-md-3 col-sm-6">
                     	<div class="footer_col_1 widget">
                         	<a href="#"><img src="images/footer-logo.png" alt=""></a>
-                            <p style="text-align: justify;">Our courses accommodate the complete Beginner through Advanced levels,
+                            <p style="text-align: justify; font-size: 13px;">Our courses accommodate the complete Beginner through Advanced levels,
 operating year-round, with open enrollment dates.<br>
 Our excellent testing program allows student placement at their exact
 level, and weekly evaluations allow students to move at their own pace.<br>
@@ -841,7 +881,7 @@ ahead or slightly behind their classmates.
                         	<h5>More Pages</h5>
                             <ul>
                               <li><a href="#">Press Coverage</a></li>
-                            	<li><a href="#">Our Courses</a></li>
+                            	<li><a href="programs.html">Our Courses</a></li>
                                 <li><a href="#">Online Courses</a></li>
                             </ul>
                         </div>
@@ -858,8 +898,8 @@ ahead or slightly behind their classmates.
                                 <li><a href="#">Our Staff</a></li>
                             </ul>
                         </div>
-                        <div class="foo_get_qoute"><br><br><br><br>
-                          <a href="contact.html" style="padding: 13px 90px; ">Request info</a>
+                        <div class="foo_get_qoute">
+                          <a class="btn-abajo" href="contact.html" style="padding: 13px 70px; font-size: 19px; ">Request info</a>
                         </div>
                     </div>
 
@@ -867,9 +907,9 @@ ahead or slightly behind their classmates.
                     	<div class="foo_col_3 widget">
                         	<h5>Opening Hours</h5>
                             <ul>
-                            	<li style="color: ##777777">Monday to Friday 8:30am to 6:00pm</li><br>
-                              <li style="color: ##777777">Weekends: Closed</li><br>
-                              <li style="color: ##777777">National Holidays: Closed</li><br>
+                            	<li style="color: #b3b3b3">Monday to Friday 8:30am to 6:00pm</li><br>
+                              <li style="color: #b3b3b3">Weekends: Closed</li><br>
+                              <li style="color: #b3b3b3">National Holidays: Closed</li><br>
 
 
                             </ul>
@@ -908,8 +948,6 @@ ahead or slightly behind their classmates.
                 </div>
             </div>
         </div>
-        <!--Footer Copyright Wrap End-->
-
     </footer>
     <!--Footer Wrap End-->
 
