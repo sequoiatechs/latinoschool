@@ -215,7 +215,7 @@ $(document).ready(function(){
 		$('.accord_list_1').accordion({
 		  defaultOpen: '#accord_1',
 		  cookieName: 'nav',
-		  speed: 'slow',
+		  speed: 'fast',
 		  animateOpen: function (elem, opts) { //replace the standard slideUp with custom function
 			elem.next().stop(true, true).slideFadeToggle(opts.speed);
 		  },
