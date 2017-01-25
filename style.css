@@ -30,6 +30,28 @@
 	//-- Light Box
 	//-- Blog Page
 */
+
+.colleges{
+	text-align: center;
+}
+.sec-arriba{
+	margin-top: -100px;
+}
+.col-in{
+	height: 300px;
+	font-size: 18px;
+}
+.col-in h3{
+	font-size: 18px;
+}
+
+.lista-press{
+	font-size: 20px;
+}
+
+.centro{
+	text-align: center;
+}
 .sin-mostrar{
 	display: none;
 }
@@ -1944,6 +1966,9 @@ display: none;
 }
 .border-brown{
 	border-color: brown;
+}
+.border-transparent{
+	border-color: #ffffff;
 }
 
 
