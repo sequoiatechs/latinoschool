@@ -30,9 +30,16 @@
 	//-- Light Box
 	//-- Blog Page
 */
+.btn-video{
+	color: #840000;
+	text-align: center;
+	border: 1px solid #840000;
+	padding: 8px 15px;
+}
 
-
-
+.color-letras{
+	color: #840000;
+}
 
 .white-c{
 	background-color: #ffffff;
@@ -520,6 +527,7 @@ section{
 .banner_outer_wrap .bx-wrapper .bx-pager,
 .banner_outer_wrap .bx-wrapper .bx-controls-auto{
 	bottom:20px;
+	margin-left: -150px;
 }
 .banner_outer_wrap .bx-wrapper .bx-pager.bx-default-pager a{
 	background-color:transparent;
