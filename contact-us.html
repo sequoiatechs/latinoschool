@@ -142,25 +142,28 @@
                 </div>
                 <div class="row">
                 	<div class="col-md-6">
+
                     	<div class="ct_contact_form">
-                        	<form >
-                            	<div class="form_field">
+
+                        	<form action="/" onsubmit="return submitForm();" method="post" name="contactform" class="contact-form type-2" id="contact-form">
+                            	<div class="form_field input-field">
                                 	<label class="fa fa-user"></label>
-                                	<input class="conatct_plchldr" type="text" placeholder="Your Name">
+                                	<input class="conatct_plchldr" type="text" name="name" required placeholder="Your Name">
                                 </div>
-                                <div class="form_field">
+                                <div class="form_field input-field">
                                 	<label class="fa fa-envelope-o"></label>
-                                	<input class="conatct_plchldr" type="text" placeholder="Email Address">
+                                	<input class="conatct_plchldr" type="text" name="email" required placeholder="Email Address">
                                 </div>
-                                <div class="form_field">
+                                <div class="form_field input-field">
                                 	<label class="fa fa-edit"></label>
-                                	<textarea class="conatct_plchldr" placeholder="Write Detail"></textarea>
+                                	<textarea class="conatct_plchldr" name="message" placeholder="Write Detail"></textarea>
                                 </div>
                                 <div class="g-recaptcha" data-sitekey="6LdTAhIUAAAAACxKwwZAi7aPNBe5bYAdAM_9HyuB"></div>
                                 <div class="form_field form-margin">
-                                	<button>Send Now <i class="fa fa-arrow-right"></i> </button>
+                                	<button class="submit link-style-1 type-2" >Send Now <i class="fa fa-arrow-right"></i> </button>
                                 </div>
                             </form>
+
                         </div>
                     </div>
 
