@@ -37,6 +37,19 @@
 	padding: 8px 15px;
 }
 
+.padding20{
+	padding-bottom: 20px;
+}
+
+.cuadro-span{
+	margin-left: 150px;
+	content: none;
+}
+.cuadro-span::after{
+	background-color: #ffffff;
+	content: none;
+}
+
 .color-letras{
 	color: #840000;
 }
@@ -90,6 +103,18 @@
 	text-align: left;
 	border: 1px solid #e2e2e2;
 	padding: 20px 10px;
+}
+.caja-semester2{
+	text-align: left;
+	border: 1px solid #e2e2e2;
+	padding: 20px 10px;
+	height: 200px;
+}
+.caja-semester3{
+	text-align: left;
+	border: 1px solid #e2e2e2;
+	padding: 20px 10px;
+	height: 300px;
 }
 .list-items{
 	text-align: left;
@@ -1350,7 +1375,20 @@ section{
 	width: 100%;
 	height: 650px;
 	border: 15px solid #d9ded9;
+}
 
+#pic-bg-bolivia{
+	background-image: url('images/bolivia-team1.png');
+	width: 100%;
+	height: 650px;
+	border: 15px solid #d9ded9;
+}
+
+#pic-bg-bolivia:hover{
+	background-image: url('images/bolivia-team2.png');
+	width: 100%;
+	height: 650px;
+	border: 15px solid #d9ded9;
 }
 
 #pic-bg-ec{
