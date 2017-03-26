@@ -185,11 +185,19 @@
 		background-size: contain;
 		height: 237px;
 	}
+	#pic-bg-bolivia{
+		background-size: contain;
+		height: 237px;
+	}
 	#pic-bg-ec:hover{
 		background-size: contain;
 		height: 237px;
 	}
 	#pic-bg-peru:hover{
+		background-size: contain;
+		height: 237px;
+	}
+	#pic-bg-bolivia:hover{
 		background-size: contain;
 		height: 237px;
 	}

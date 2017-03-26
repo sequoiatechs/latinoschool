@@ -1363,6 +1363,57 @@ section{
 	width: 100%;
 	height: 360px;
 }
+#pic-bg14{
+	background-image: url('images/jefe1.png');
+	background-size: cover;
+	width: 100%;
+	height: 360px;
+}
+
+#pic-bg14:hover{
+	background-image: url('images/jefe2.png');
+	width: 100%;
+	height: 360px;
+}
+#pic-bg15{
+	background-image: url('images/karina1.png');
+	background-size: cover;
+	width: 100%;
+	height: 360px;
+}
+
+#pic-bg15:hover{
+	background-image: url('images/karina2.png');
+	width: 100%;
+	height: 360px;
+}
+#pic-bg16{
+	background-image: url('images/miriam1.png');
+	background-size: cover;
+	width: 100%;
+	height: 360px;
+}
+
+#pic-bg16:hover{
+	background-image: url('images/miriam2.png');
+	width: 100%;
+	height: 360px;
+}
+#pic-bg17{
+	background-image: url('images/moy1.png');
+	background-size: cover;
+	width: 100%;
+	height: 360px;
+}
+
+#pic-bg17:hover{
+	background-image: url('images/moy2.png');
+	width: 100%;
+	height: 360px;
+}
+
+
+
 #pic-bg-peru{
 	background-image: url('images/peru-team1.png');
 	width: 100%;
